@@ -1,59 +1,62 @@
-Hướng dẫn quy trình nhập kho điều chỉnh.
-Tài liệu nghiệp vụ bộ phận kho.
-.
-Các trường hợp xuất nhập kho điều chỉnh
-Trường hợp 1: Nhập kho điều chỉnh với 1 hoặc từng mã item
-Trường hợp 2: Xuất kho điều chỉnh với 1 hoặc từng mã item
-Trường hợp 3: Nhập kho điều chỉnh nhiều mã item bằng container đã chuẩn bị trước đó
-Trường hơp 4: Xuất kho điều chỉnh nhiều mã item bằng container.
+1A
+Tạo đơn hàng bán
+Mở Form (cửa sổ) PTE Customer Order để thực hiện 
+1. Mã đơn hàng được tự động tạo 
+2. Nhập Mã khách hàng
+3. Nhập Địa chỉ giao hàng
+4. Kiểm tra Trạng thái đơn hàng
+5. Nhập Ngày tạo đơn hàng
+6. Nhập Số hợp đồng thực tế với Khách hàng
+7. Chọn Loại đơn hàng
+8. Chọn Kho mặc định
+Sau đó nhấn Lines để xem chi tiết đơn hàng
+Tại màn hình PTE Customer Order Lines
+1. Kiểm tra thông tin xê ô
+2. Chọn mã Item và tên item sẽ được tự động điền
+3. Nhập số lượng Order và đơn vị tính
+4. Kiểm tra giá
+5. Kiểm tra Trạng thái đơn hàng và ngày giao hàng
+6. Kiểm tra các Item đã nhập
+7. Nhấn dấu + để thêm 1 item và nhập các thông tin tương tự
+8. Nhấn Save để lưu lại thông tin
+Sau đó chọn tag Source
+1. Chọn Type = Job
+2. Chọn Source Type theo quy định
+3. Mã Job Oder sẽ tự động được sinh ra
+4. Nhấn Save để lưu lại
+Sau đó nhấn Source để tạo Job Order
 
-1.
-Xuất kho điều chỉnh với 1 hoặc từng mã item. Mở form cửa sổ Miscellaneous Issue để thực hiện.
-Theo dõi và điền các thông tin cần thiết
-1. Warehouse để xem Kho cần xuất điều chỉnh
-2. Item để Chọn 1 mã Item cần xuất, số lượng tồn kho hiện tại tự động được lấy lên
-3. Quantity để Điền số lượng cần xuất kho điều chỉnh
-4. Reason để chọn Lý do cần xuất kho điều chỉnh
-5. Location để Chọn vị trí trong kho chứa Item cần xuất
-6. Transaction Date để Chọn ngày thực hiện giao dịch
-Và nhấn nút Process để hệ thống thực hiện. Hệ thống sẽ thể hiện thông báo giao dịch thành công. 
-2.
-Nhập kho điều chỉnh với 1 hoặc từng mã item.
-Mở Form (cửa sổ) Miscellaneous Receipt để thực hiện .
-1. Warehouse để xem Kho cần nhập điều chỉnh
-2. Item để Chọn 1 mã Item cần nhập, số lượng tồn kho hiện tại tự động được lấy lên
-3. Quantiyy để Điền số lượng cần nhập kho điều chỉnh
-4. Material cost để Xác định chi phí nhập kho
-5. Location để Chọn vị trí trong kho chứa Item cần nhập
-6 Reason để chọn Lý do cần nhập kho điều chỉnh
-7. Transaction Date để Chọn ngày thực hiện giao dịch
-Và nhấn nút Receive để hệ thống thực hiện. Hệ thống sẽ thể hiện thông báo giao dịch thành công. 
-3.
-Xuất kho điều chỉnh nhiều mã item Bằng container chuẩn bị trước. Mở Form (cửa sổ) Miscellaneous Issue để thực hiện 
-1. Warehouse để xem Kho cần xuất điều chỉnh
-2. Tick Chọn By Container và Mã container đã chuẩn bị trước
-3. Reason để chọn Lý do cần xuất kho điều chỉnh
-4. Transaction Date để Chọn ngày thực hiện giao dịch
-Và nhấn nút Process để hệ thống thực hiện. Hệ thống sẽ thể hiện thông báo giao dịch thành công. 
-4.
-Nhập kho điều chỉnh nhiều mã item Bằng container chuẩn bị trước.
-Mở Form (cửa sổ) Miscellaneous Receipt để thực hiện.
-1. Warehouse để xem Kho cần nhập điều chỉnh
-2. Item để Chọn 1 mã Item cần nhập, số lượng tồn kho hiện tại tự động được lấy lên
-3. Quantiyy để Điền số lượng cần nhập kho điều chỉnh
-4. Material cost để Xác định chi phí nhập kho
-5. Location để Chọn vị trí trong kho chứa Item cần nhập
-6 Tick Tu Container để nhập kho bằng container
-7. Chọn mã Container
-8. Reason để chọn Lý do cần nhập kho điều chỉnh
-9. Transaction Date để Chọn ngày thực hiện giao dịch
-Và nhấn nút Receive để hệ thống thực hiện. Hệ thống sẽ thể hiện thông báo giao dịch thành công. 
-Xin cảm ơn...
-
-
-
-
-
-
-
-
+1B
+Tạo Đơn Hàng Bán nguyên tắc 
+Mở Form (cửa sổ) PTE Customer Order để thực hiện 
+1. Mã đơn hàng được tự động tạo 
+2. Nhập Mã khách hàng
+3. Nhập Địa chỉ giao hàng
+4. kiểm tra Trạng thái đơn hàng
+5. Nhập Ngày tạo đơn hàng
+6. Nhập Số hợp đồng thực tế với Khách hàng
+7. Chọn Loại đơn hàng, chọn Blanket
+8. Chọn Kho mặc định
+Sau đó nhấn Lines để xem chi tiết đơn hàng
+Ở màn hình Customer Order Blanket Lines
+1. Nhập mã Item
+2. Nhập số lượng  và kiểm tra giá
+3. Kiểm tra số lượng Item. Bấm + để thêm Item
+4. Bấm Save để lưu lại
+Sau đó bấm Release
+Ở màn hình PTE Customer Order Blanket Release
+1. Nhập ngày phát hành
+2. Nhập số lượng giao hàng lần 1
+3. Nhập ngày giao hàng lần 1
+4. Kiểm tra đã đủ số lần giao hàng theo đơn hàng hay chưa
+5. Nhấn + để nhập các giá trị cho lần giao hàng tiếp theo
+6. Nhấn Save để lưu lại
+Sau đó chọn tag Source
+1. Chọn Type = Job
+2. Chọn Source Type theo quy định
+3. Mã Job Oder sẽ tự động được sinh ra
+4. Nhấn Save để lưu lại
+Sau đó nhấn Source để tạo Job Order
+1C
+Tạo Danh Sách Nhu Cầu Sản Xuất
+Mở Form (cửa sổ) PTE Import Job Order để thực hiện 
