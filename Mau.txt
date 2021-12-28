@@ -1,0 +1,59 @@
+Hướng dẫn quy trình nhập kho điều chỉnh.
+Tài liệu nghiệp vụ bộ phận kho.
+.
+Các trường hợp xuất nhập kho điều chỉnh
+Trường hợp 1: Nhập kho điều chỉnh với 1 hoặc từng mã item
+Trường hợp 2: Xuất kho điều chỉnh với 1 hoặc từng mã item
+Trường hợp 3: Nhập kho điều chỉnh nhiều mã item bằng container đã chuẩn bị trước đó
+Trường hơp 4: Xuất kho điều chỉnh nhiều mã item bằng container.
+
+1.
+Xuất kho điều chỉnh với 1 hoặc từng mã item. Mở form cửa sổ Miscellaneous Issue để thực hiện.
+Theo dõi và điền các thông tin cần thiết
+1. Warehouse để xem Kho cần xuất điều chỉnh
+2. Item để Chọn 1 mã Item cần xuất, số lượng tồn kho hiện tại tự động được lấy lên
+3. Quantity để Điền số lượng cần xuất kho điều chỉnh
+4. Reason để chọn Lý do cần xuất kho điều chỉnh
+5. Location để Chọn vị trí trong kho chứa Item cần xuất
+6. Transaction Date để Chọn ngày thực hiện giao dịch
+Và nhấn nút Process để hệ thống thực hiện. Hệ thống sẽ thể hiện thông báo giao dịch thành công. 
+2.
+Nhập kho điều chỉnh với 1 hoặc từng mã item.
+Mở Form (cửa sổ) Miscellaneous Receipt để thực hiện .
+1. Warehouse để xem Kho cần nhập điều chỉnh
+2. Item để Chọn 1 mã Item cần nhập, số lượng tồn kho hiện tại tự động được lấy lên
+3. Quantiyy để Điền số lượng cần nhập kho điều chỉnh
+4. Material cost để Xác định chi phí nhập kho
+5. Location để Chọn vị trí trong kho chứa Item cần nhập
+6 Reason để chọn Lý do cần nhập kho điều chỉnh
+7. Transaction Date để Chọn ngày thực hiện giao dịch
+Và nhấn nút Receive để hệ thống thực hiện. Hệ thống sẽ thể hiện thông báo giao dịch thành công. 
+3.
+Xuất kho điều chỉnh nhiều mã item Bằng container chuẩn bị trước. Mở Form (cửa sổ) Miscellaneous Issue để thực hiện 
+1. Warehouse để xem Kho cần xuất điều chỉnh
+2. Tick Chọn By Container và Mã container đã chuẩn bị trước
+3. Reason để chọn Lý do cần xuất kho điều chỉnh
+4. Transaction Date để Chọn ngày thực hiện giao dịch
+Và nhấn nút Process để hệ thống thực hiện. Hệ thống sẽ thể hiện thông báo giao dịch thành công. 
+4.
+Nhập kho điều chỉnh nhiều mã item Bằng container chuẩn bị trước.
+Mở Form (cửa sổ) Miscellaneous Receipt để thực hiện.
+1. Warehouse để xem Kho cần nhập điều chỉnh
+2. Item để Chọn 1 mã Item cần nhập, số lượng tồn kho hiện tại tự động được lấy lên
+3. Quantiyy để Điền số lượng cần nhập kho điều chỉnh
+4. Material cost để Xác định chi phí nhập kho
+5. Location để Chọn vị trí trong kho chứa Item cần nhập
+6 Tick Tu Container để nhập kho bằng container
+7. Chọn mã Container
+8. Reason để chọn Lý do cần nhập kho điều chỉnh
+9. Transaction Date để Chọn ngày thực hiện giao dịch
+Và nhấn nút Receive để hệ thống thực hiện. Hệ thống sẽ thể hiện thông báo giao dịch thành công. 
+Xin cảm ơn...
+
+
+
+
+
+
+
+

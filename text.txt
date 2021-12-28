@@ -1,11 +1,100 @@
-Đơn xin xét tốt nghiệp - có chữ kí
-chứng chỉ anh văn: nghe-đọc 450, nói-viết 185
-Bản sao bằng tốt nghiệp THPT
-Bản sao chứng chỉ GDQP
-Bản sao giấy khai sinh
-Biên lai lệ phí xét tốt nghiệp ( chưa đóng thì nộp bỏ sung vào lúc nhận bằng)
-Đơn hủy môn tự chọn (nếu có)
+2.
+Tạo Lệnh Sản Xuất
+Mở Form (cửa sổ) PTE Job Order để thực hiện 
+1. Mã Job sẽ được tạo tự động dựa trên Type Job
+2. Item và Type để Chọn Item cần sản xuất và Type Job theo quy tắt
+3. For Warehouse để Chọn kho lưu trữ Item
+4. Release để Điền số lượng cần sản xuất
+5. Status để Kiểm tra trạng thái của Job Order
+6. Start và End để Điền ngày bắt đầu và kết thúc Job
+Sau đó chọn tag References để xem thông tin Job Order
+1. Mục Order sẽ cung cấp thông tin về xê ô của Job
+2. Mục Job sẽ cho biết Job là Job độc lập hay là con của Job khác
+3. Sau đó chọn Copy Routing/BOM để copy BOM
+Phần  3
+Copy Routing BOM
+Mở Form (cửa sổ) Copy Routing BOM Từ Job Order để thực hiện 
+1. Chọn loại BOM cần copy
+2. Chọn mã Item của BOM cần copy
+3. Kiểm tra các thông tin và nhấn Process để thực hiện. Sau đó trở về màn hình PTE Job Orders để kiểm tra lại.
+Sau khi copy BOM chọn Operations để kiểm tra BOM của Job
+Chọn Materials để kiểm tra nguyên vật liệu của Job
+Ở màn hình Job Operations
+1. Kiểm tra đã đủ các công đoạn sản xuất hay chưa
+2. Chọn từng dòng để kiểm tra chi tiết từng công đoạn sản xuất
+3. Kiểm tra số lượng thành phẩm theo từng giờ
+tiếp theo vào màn hình Job Material
+1. Kiểm tra đã đủ các nguyên vật liệu cho sản xuất hay chưa
+2. Chọn vào từng dòng để kiểm tra chi tiết từng nguyên vật liệu
+3. Kiểm tra mức độ tiêu hao nguyên vật liệu
 
-26.11-30.11
-26.11-27.11
-1.12-9.12
+4. 
+Check BOM
+Mở Form (cửa sổ) Engineering Board Từ Job Order để thực hiện 
+Ở màn hình này sẽ thể hiện rõ quy trình của BOM, mối quan hệ giữa các BOM. BOM cần bao nhiêu công đoạn và bao nhiêu nguyên vật liệu
+5. 
+Change Status Job Order
+Mở Form (cửa sổ) Job Order để thực hiện 
+1. Chọn mã Job Order cần thay đổi trạng thái
+2. Chọn trạng thái cần thay đổi
+6. 
+Điều Độ Sản Xuất
+Mở Form (cửa sổ) Scheduling để thực hiện 1
+
+1. Chọn thời gian bắt đầu và kết thúc kế hoạch sản xuất
+2. Chọn Run APS Planning after Scheduling để ra lệnh cho hệ thống APS lên kế hoạch cho nguyên vật liệu  
+3. Nhấn Schedule and Plan để thực thi. Sau đó mở màn hình Background Task History để theo dõi lệnh
+Ở màn hình Background Task History
+1. Chọn Scheduling cần theo dõi
+2. Kiểm tra thông tin người thực hiện
+3. Kiểm tra trạng thái của Scheduling. Nếu trạng thái là Task Succeeded là hoàn thành
+7. 
+Điều chỉnh thời gian sản xuất Resource 
+Mở Form (cửa sổ) Resource Gant Chart  để thực hiện 
+1. Bỏ dấu tick ở All Resources
+2. Chọn Selections để tạo lựa chọn cần xem
+3. Chọn Selections vừa tạo
+4. Chọn thời gian bắt đầu và kết thúc
+5. Sau đó nhấn OK để thực hiện
+Tiếp theo màn hình Resource Gantt chart - Schedule sẽ thể hiện Operation theo ngày
+1. Chọn Job cần thay đổi
+2. Chọn Edit Operation để chỉnh sửa Job
+3. Màn hình Gantt Edit Operation sẽ cho phép điều chỉnh Operation
+4. Chọn Resource, thời gian bắt đầu và kết thúc cần thay đổi
+5. Sau đó nhấn OK để thay đổi
+6. Trở về màn hình Resource Gantt chart - Schedule
+7. Chọn Freeze Job để khoá Job
+8. Chọn Unfreeze Job để mở khoá Job
+9. Chọn Freeze Operation để khoá Operation
+10. Chọn Unfreeze Operation để mở khoá Operation
+11. Sau đó nhấn Save Schedule để lưu lại
+
+8.
+Điều chỉnh thời gian sản xuất Resource 
+Mở Form (cửa sổ) Resource Schedule để thực hiện 
+1. Kiểm tra thông tin Resource
+2. Kiểm tra thông tin Job, Item sản xuất
+3. Kiểm tra thông tin số lượng sản xuất, ngày giao hàng, ngày bắt đầu và kết thúc
+4. Kiểm tra thông tin Operation
+5. Kiểm tra thông tin ngày bắt đầu và kết thúc của Operation
+
+9. 
+Nhận dạng các Lệnh sản xuất bị trễ hạn
+Mở Form (cửa sổ) Demand Summary – Scheduler để thực hiện 
+1. Chọn thời gian bắt đầu và kết thúc cần xem
+2. Nhấn nút lọc để lọc theo thời gian vừa thiết lập
+3. Vào cột Days late để xem số ngày trể
+
+10. 
+In Kế Hoạch Sản Xuất gửi các Bộ phận liên quan
+Mở Form (cửa sổ) PTE Kế hoạch sản xuất để thực hiện 
+1. Chọn ngày bắt đầu
+2. Chọn ngày kết thúc
+3. Chọn Resource bắt đầu
+4. Chọn Resource kết thúc
+5. Sau đó nhấn Preview để xem trước khi in
+
+
+Cảm ơn sự theo dõi của quý vị
+Vui lòng liên hệ với chúng tôi nếu quý vị bất kỳ công hỏi nào qua email: daotao@pte.vn
+Xin cảm ơn
